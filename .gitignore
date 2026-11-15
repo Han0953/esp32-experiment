@@ -1,3 +1,7 @@
-# Folder perbandingan (di-ignore, codebase utama adalah Rust)
-MicroPython/
-C++/
+# Python cache
+__pycache__/
+*.pyc
+
+# OS / Temp
+.DS_Store
+Thumbs.db
