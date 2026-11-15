@@ -1,0 +1,18 @@
+{
+  "python.analysis.ignore": [
+    "**/MicroPython/**"
+  ],
+  "python.analysis.exclude": [
+    "**/MicroPython/**"
+  ],
+  "python.analysis.diagnosticSeverityOverrides": {
+    "reportMissingImports": "none"
+  },
+  "C_Cpp.errorSquiggles": "disabled",
+  "C_Cpp.intelliSenseEngine": "disabled",
+  "errorLens.excludePatterns": [
+    "**/C++/**",
+    "**/MicroPython/**",
+    "**/*.ino"
+  ]
+}
